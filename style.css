@@ -68,6 +68,10 @@ ul {
     gap: 15px;
 }
 
+.g-5p {
+    gap: 5px;
+}
+
 .g-2vw {
     gap: 5vw;
 }
@@ -106,6 +110,14 @@ ul {
 
 .m-0p {
     margin: 0px 0px;
+}
+
+.mb-0p {
+    margin-bottom: 0px;
+}
+
+.mt-0p {
+    margin-top: 0px;
 }
 
 .mt-1vh {
@@ -176,10 +188,14 @@ h1 {
 }
 
 h2 {
+    font-size: 2.5em;
+    margin: 3vh 0px 0px 0px;
     font-family: 'Jost', sans-serif;
 }
 
 h3 {
+    font-size: 1.5em;
+    margin: 3vh 0px 0px 0px;
     font-family: 'Jost', sans-serif;
 }
 
@@ -190,6 +206,10 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    gap: 15px;
+
+    overflow-x: scroll;
+
     z-index: 100;
 
     width: 100%;
@@ -210,9 +230,11 @@ header {
 
     display: flex;
     align-items: center;
+    justify-content: center;
     gap: 5px;
 
     height: 1.5em;
+    min-width: 8.5em;
 
     color: #f6ffe6;
     font-size: normal;
@@ -327,7 +349,17 @@ a:active {
 
 .answer-box {
     margin-top: 4vh;
+    padding: 2vh 0px;
     border-top: rgba(57, 67, 54, 0.5) solid 1px;
+}
+
+.sources li::marker {
+    color: #73b6f1;
+}
+
+.sources li {
+    color: #fffae8; 
+    margin: 3vh 0px;
 }
 
 
