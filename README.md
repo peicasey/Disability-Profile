@@ -1,5 +1,7 @@
 # Disability Profile
 
+<img src="https://i.postimg.cc/c1gxcMpZ/image.png" width="500px" alt="an image of the website of the diability profile, it has a dark green background, with outlined and rounded buttons at the header as well as a large main illustration of someone with a migraine">
+
 ## Overview
 The purpose of this assignment is to research a particular disability or aspect of a disability and share that information with the class. Everyone’s profile will augment the accessibility index we are creating
 
